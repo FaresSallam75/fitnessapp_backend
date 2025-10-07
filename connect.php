@@ -1,7 +1,7 @@
 <?php
-$dsn = "mysql:host=tramway.proxy.rlwy.net;port=29750;dbname=railway";
+$dsn = "mysql:host=switchback.proxy.rlwy.net;port=33292;dbname=railway";
 $user = "root";
-$pass = "lLFrcKdHtqxDvqHAXMfhABGTjGQAYfFW"; // كلمة المرور من Connection URL
+$pass = "FjrDoSxEkYddjwNtlEmwUXBffpEAaSXN"; // كلمة المرور من Connection URL
 $options = array(
     PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8"
 );
