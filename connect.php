@@ -1,10 +1,24 @@
 <?php
-$dsn = "mysql:host=localhost;dbname=fitnessdb";
+// $dsn = "mysql:host=localhost;dbname=fitnessdb";
+// $user = "root";
+// $pass = "";
+// $option = array(
+//    PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES UTF8"
+// );
+// $dsn = "mysql:host=sql101.infinityfree.com;dbname=if0_39825682_fitnessdb";
+// $user = "if0_39825682";
+// $pass = "FQr1LCBb0x2Bl";
+// $option = array(
+//    PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES UTF8"
+// );
+
+$dsn = "mysql:host=tramway.proxy.rlwy.net;port=29750;dbname=railway";
 $user = "root";
-$pass = "";
-$option = array(
-   PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES UTF8"
+$pass = "railway"; // ضع كلمة المرور كما تظهر في صفحة Railway
+$options = array(
+    PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8"
 );
+
 $countrowinpage = 9;
 try {
    $con = new PDO($dsn, $user, $pass, $option);
